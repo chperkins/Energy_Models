@@ -39,7 +39,7 @@ config = {
   'langevin_step_num_des': 100, #number of minimizing steps from initial points for descriptor  
   'num_iter':  10000, #number of total training iterations
   'init': 'uniform', #initialize samples - uniform, gaussian, generator, persistent
-  'langevin_step_size_des': 1.123, #step size for sgd/adam/langevin of descriptor
+  'langevin_step_size_des': 1, #step size for sgd/adam/langevin of descriptor
   'noise_divide': 1, #for strict langevin, divide variance of noise
   'data_epsilon': 0.03, #add noise to observed samples
   'l2_energy_reg': 0, #penalty on energy in loss
